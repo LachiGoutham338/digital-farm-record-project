@@ -1,0 +1,60 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Flask
+instance/
+*.log
+
+# IDE / VS Code
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database local files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports
+*.pdf
+*.xlsx
+*.xls
+*.csv
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Secret API keys
+secrets.py
+config_local.py
